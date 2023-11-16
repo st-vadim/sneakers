@@ -1,0 +1,257 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(/fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(/fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex: 1 0 auto;
+    min-height: 100vh;
+    background: #F1F1F1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1152px;
+    max-height: 112px;
+    padding: 24px 0;
+}
+
+.header_logo-link {
+    max-width: 215px;
+    max-height: 64px;
+}
+
+.header_logo-image {
+    width: 100%;
+    max-width: 215px;
+    object-fit: contain;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+.header_nav-item {
+    display: flex;
+}
+
+.header_nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: "Anonymous Pro", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1152px;
+    flex: 1 0 auto;
+}
+
+.content_title {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.content_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 24px;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    max-width: 364px;
+    border-radius: 12px;
+    transition: box-shadow 200ms ease-in-out;
+    transition: -webkit-transform 300ms ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.card_image {
+    width: 100%;
+    height: 100%;
+    max-height: 254px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin: 0;
+    min-height: 120px;
+    margin-top: 32px;
+}
+
+.card_content {
+    width: 86%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_text {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.card_text_title {
+    font-size: 26px;
+}
+
+.card_text_description {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer {
+    width: 100%;
+    max-height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #121723;
+    margin-top: 32px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1152px;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+
+.footer__nav-item {
+    display: flex;
+}
+
+.line {
+    display: flex;
+    max-width: 1152px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #676B73;
+    height: 1px;
+    border-radius: 1px;
+}
+
+.footer_title {
+    color: #A1A6B4;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer_nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer_logo {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+}
+
+.footer_logo-link {
+    max-width: 300px;
+    max-height: 22px;
+}

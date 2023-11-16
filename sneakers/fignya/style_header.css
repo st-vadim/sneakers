@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+    background: #F1F1F1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 1440px;
+    height: 110px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    margin-left: 24px;
+}
+
+.nav_main {
+    padding: 0;
+    margin-top: 40px;
+    margin-right: 157px;
+}
+
+.social {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.logo {
+    width: 212.34px;
+    height: 63.24px;
+    padding: 0;
+    margin-top: 30.18px;
+    margin-left: 142.52px;
+}
